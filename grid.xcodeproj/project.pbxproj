@@ -12,8 +12,8 @@
 		22AAC1942444998100C22601 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22AAC1932444998100C22601 /* Assets.xcassets */; };
 		22AAC1972444998100C22601 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22AAC1962444998100C22601 /* Preview Assets.xcassets */; };
 		22AAC19A2444998100C22601 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22AAC1982444998100C22601 /* Main.storyboard */; };
-		22AAC1A62444998200C22601 /* lootTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AAC1A52444998200C22601 /* lootTests.swift */; };
-		22AAC1B12444998200C22601 /* lootUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AAC1B02444998200C22601 /* lootUITests.swift */; };
+		22AAC1A62444998200C22601 /* gridTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AAC1A52444998200C22601 /* gridTests.swift */; };
+		22AAC1B12444998200C22601 /* gridUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AAC1B02444998200C22601 /* gridUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +34,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		22AAC18C2444998000C22601 /* loot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = loot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22AAC18C2444998000C22601 /* grid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = grid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22AAC18F2444998000C22601 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22AAC1912444998000C22601 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		22AAC1932444998100C22601 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22AAC1962444998100C22601 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		22AAC1992444998100C22601 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		22AAC19B2444998100C22601 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		22AAC19C2444998100C22601 /* loot.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = loot.entitlements; sourceTree = "<group>"; };
-		22AAC1A12444998200C22601 /* lootTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lootTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		22AAC1A52444998200C22601 /* lootTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lootTests.swift; sourceTree = "<group>"; };
+		22AAC19C2444998100C22601 /* grid.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = grid.entitlements; sourceTree = "<group>"; };
+		22AAC1A12444998200C22601 /* gridTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gridTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22AAC1A52444998200C22601 /* gridTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gridTests.swift; sourceTree = "<group>"; };
 		22AAC1A72444998200C22601 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		22AAC1AC2444998200C22601 /* lootUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lootUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		22AAC1B02444998200C22601 /* lootUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lootUITests.swift; sourceTree = "<group>"; };
+		22AAC1AC2444998200C22601 /* gridUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gridUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22AAC1B02444998200C22601 /* gridUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gridUITests.swift; sourceTree = "<group>"; };
 		22AAC1B22444998200C22601 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,9 +78,9 @@
 		22AAC1832444998000C22601 = {
 			isa = PBXGroup;
 			children = (
-				22AAC18E2444998000C22601 /* loot */,
-				22AAC1A42444998200C22601 /* lootTests */,
-				22AAC1AF2444998200C22601 /* lootUITests */,
+				22AAC18E2444998000C22601 /* grid */,
+				22AAC1A42444998200C22601 /* gridTests */,
+				22AAC1AF2444998200C22601 /* gridUITests */,
 				22AAC18D2444998000C22601 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,14 +88,14 @@
 		22AAC18D2444998000C22601 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				22AAC18C2444998000C22601 /* loot.app */,
-				22AAC1A12444998200C22601 /* lootTests.xctest */,
-				22AAC1AC2444998200C22601 /* lootUITests.xctest */,
+				22AAC18C2444998000C22601 /* grid.app */,
+				22AAC1A12444998200C22601 /* gridTests.xctest */,
+				22AAC1AC2444998200C22601 /* gridUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		22AAC18E2444998000C22601 /* loot */ = {
+		22AAC18E2444998000C22601 /* grid */ = {
 			isa = PBXGroup;
 			children = (
 				22AAC18F2444998000C22601 /* AppDelegate.swift */,
@@ -103,10 +103,10 @@
 				22AAC1932444998100C22601 /* Assets.xcassets */,
 				22AAC1982444998100C22601 /* Main.storyboard */,
 				22AAC19B2444998100C22601 /* Info.plist */,
-				22AAC19C2444998100C22601 /* loot.entitlements */,
+				22AAC19C2444998100C22601 /* grid.entitlements */,
 				22AAC1952444998100C22601 /* Preview Content */,
 			);
-			path = loot;
+			path = grid;
 			sourceTree = "<group>";
 		};
 		22AAC1952444998100C22601 /* Preview Content */ = {
@@ -117,30 +117,30 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		22AAC1A42444998200C22601 /* lootTests */ = {
+		22AAC1A42444998200C22601 /* gridTests */ = {
 			isa = PBXGroup;
 			children = (
-				22AAC1A52444998200C22601 /* lootTests.swift */,
+				22AAC1A52444998200C22601 /* gridTests.swift */,
 				22AAC1A72444998200C22601 /* Info.plist */,
 			);
-			path = lootTests;
+			path = gridTests;
 			sourceTree = "<group>";
 		};
-		22AAC1AF2444998200C22601 /* lootUITests */ = {
+		22AAC1AF2444998200C22601 /* gridUITests */ = {
 			isa = PBXGroup;
 			children = (
-				22AAC1B02444998200C22601 /* lootUITests.swift */,
+				22AAC1B02444998200C22601 /* gridUITests.swift */,
 				22AAC1B22444998200C22601 /* Info.plist */,
 			);
-			path = lootUITests;
+			path = gridUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		22AAC18B2444998000C22601 /* loot */ = {
+		22AAC18B2444998000C22601 /* grid */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 22AAC1B52444998200C22601 /* Build configuration list for PBXNativeTarget "loot" */;
+			buildConfigurationList = 22AAC1B52444998200C22601 /* Build configuration list for PBXNativeTarget "grid" */;
 			buildPhases = (
 				22AAC1882444998000C22601 /* Sources */,
 				22AAC1892444998000C22601 /* Frameworks */,
@@ -150,14 +150,14 @@
 			);
 			dependencies = (
 			);
-			name = loot;
+			name = grid;
 			productName = loot;
-			productReference = 22AAC18C2444998000C22601 /* loot.app */;
+			productReference = 22AAC18C2444998000C22601 /* grid.app */;
 			productType = "com.apple.product-type.application";
 		};
-		22AAC1A02444998200C22601 /* lootTests */ = {
+		22AAC1A02444998200C22601 /* gridTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 22AAC1B82444998200C22601 /* Build configuration list for PBXNativeTarget "lootTests" */;
+			buildConfigurationList = 22AAC1B82444998200C22601 /* Build configuration list for PBXNativeTarget "gridTests" */;
 			buildPhases = (
 				22AAC19D2444998200C22601 /* Sources */,
 				22AAC19E2444998200C22601 /* Frameworks */,
@@ -168,14 +168,14 @@
 			dependencies = (
 				22AAC1A32444998200C22601 /* PBXTargetDependency */,
 			);
-			name = lootTests;
+			name = gridTests;
 			productName = lootTests;
-			productReference = 22AAC1A12444998200C22601 /* lootTests.xctest */;
+			productReference = 22AAC1A12444998200C22601 /* gridTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		22AAC1AB2444998200C22601 /* lootUITests */ = {
+		22AAC1AB2444998200C22601 /* gridUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 22AAC1BB2444998200C22601 /* Build configuration list for PBXNativeTarget "lootUITests" */;
+			buildConfigurationList = 22AAC1BB2444998200C22601 /* Build configuration list for PBXNativeTarget "gridUITests" */;
 			buildPhases = (
 				22AAC1A82444998200C22601 /* Sources */,
 				22AAC1A92444998200C22601 /* Frameworks */,
@@ -186,9 +186,9 @@
 			dependencies = (
 				22AAC1AE2444998200C22601 /* PBXTargetDependency */,
 			);
-			name = lootUITests;
+			name = gridUITests;
 			productName = lootUITests;
-			productReference = 22AAC1AC2444998200C22601 /* lootUITests.xctest */;
+			productReference = 22AAC1AC2444998200C22601 /* gridUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -214,7 +214,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 22AAC1872444998000C22601 /* Build configuration list for PBXProject "loot" */;
+			buildConfigurationList = 22AAC1872444998000C22601 /* Build configuration list for PBXProject "grid" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -227,9 +227,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				22AAC18B2444998000C22601 /* loot */,
-				22AAC1A02444998200C22601 /* lootTests */,
-				22AAC1AB2444998200C22601 /* lootUITests */,
+				22AAC18B2444998000C22601 /* grid */,
+				22AAC1A02444998200C22601 /* gridTests */,
+				22AAC1AB2444998200C22601 /* gridUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -275,7 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22AAC1A62444998200C22601 /* lootTests.swift in Sources */,
+				22AAC1A62444998200C22601 /* gridTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22AAC1B12444998200C22601 /* lootUITests.swift in Sources */,
+				22AAC1B12444998200C22601 /* gridUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,12 +292,12 @@
 /* Begin PBXTargetDependency section */
 		22AAC1A32444998200C22601 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 22AAC18B2444998000C22601 /* loot */;
+			target = 22AAC18B2444998000C22601 /* grid */;
 			targetProxy = 22AAC1A22444998200C22601 /* PBXContainerItemProxy */;
 		};
 		22AAC1AE2444998200C22601 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 22AAC18B2444998000C22601 /* loot */;
+			target = 22AAC18B2444998000C22601 /* grid */;
 			targetProxy = 22AAC1AD2444998200C22601 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -444,7 +444,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = io.zero.loot;
+				PRODUCT_BUNDLE_IDENTIFIER = grid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -458,7 +458,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"loot/Preview Content\"";
-				DEVELOPMENT_TEAM = BJ87CBCCPD;
+				DEVELOPMENT_TEAM = Y7CNTD67M7;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = loot/Info.plist;
@@ -467,7 +467,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = io.zero.loot;
+				PRODUCT_BUNDLE_IDENTIFIER = grid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -491,7 +491,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.zero.lootTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/loot.app/Contents/MacOS/loot";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/grid.app/Contents/MacOS/grid";
 			};
 			name = Debug;
 		};
@@ -513,7 +513,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.zero.lootTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/loot.app/Contents/MacOS/loot";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/grid.app/Contents/MacOS/grid";
 			};
 			name = Release;
 		};
@@ -560,7 +560,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		22AAC1872444998000C22601 /* Build configuration list for PBXProject "loot" */ = {
+		22AAC1872444998000C22601 /* Build configuration list for PBXProject "grid" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				22AAC1B32444998200C22601 /* Debug */,
@@ -569,7 +569,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		22AAC1B52444998200C22601 /* Build configuration list for PBXNativeTarget "loot" */ = {
+		22AAC1B52444998200C22601 /* Build configuration list for PBXNativeTarget "grid" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				22AAC1B62444998200C22601 /* Debug */,
@@ -578,7 +578,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		22AAC1B82444998200C22601 /* Build configuration list for PBXNativeTarget "lootTests" */ = {
+		22AAC1B82444998200C22601 /* Build configuration list for PBXNativeTarget "gridTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				22AAC1B92444998200C22601 /* Debug */,
@@ -587,7 +587,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		22AAC1BB2444998200C22601 /* Build configuration list for PBXNativeTarget "lootUITests" */ = {
+		22AAC1BB2444998200C22601 /* Build configuration list for PBXNativeTarget "gridUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				22AAC1BC2444998200C22601 /* Debug */,

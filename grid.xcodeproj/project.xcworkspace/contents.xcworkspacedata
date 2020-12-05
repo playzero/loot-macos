@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:loot.xcodeproj">
+      location = "self:/Users/2075/dev/zero/22_macos/loot/grid.xcodeproj">
    </FileRef>
 </Workspace>
