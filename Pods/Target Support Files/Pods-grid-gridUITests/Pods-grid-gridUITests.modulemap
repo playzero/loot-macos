@@ -1,0 +1,6 @@
+framework module Pods_grid_gridUITests {
+  umbrella header "Pods-grid-gridUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

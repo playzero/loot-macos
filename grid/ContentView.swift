@@ -12,7 +12,7 @@ struct ContentView: View {
     
     var body: some View {
         
-        Text("Hello, World!")
+        Text("Hello, W0rld!")
             .frame(maxWidth: .infinity, maxHeight: .infinity)
                 
     }
